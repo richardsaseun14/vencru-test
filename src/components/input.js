@@ -14,7 +14,7 @@ const TextInput = (props) => {
   } = props;
   return (
     <div className="relative flex w-full flex-wrap items-stretch mb-5">
-      <label for="price" class="block text-sm text-gray-700 mb-2 text-slate-50">
+      <label htmlFor="price" className="block text-sm mb-2 text-slate-50">
         {label}
       </label>
       <input

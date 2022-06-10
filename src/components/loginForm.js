@@ -14,9 +14,9 @@ const LoginForm = (props) => {
   };
   return (
     <div className={classes}>
-      <h5 className="text-2xl font-medium mb-6">
+      <p className="text-2xl font-medium mb-6">
         Log into your Business Manager
-      </h5>
+      </p>
       <TextInput
         label={'Email Address'}
         placeholder={'someone@email.com'}
