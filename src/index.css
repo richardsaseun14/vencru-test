@@ -14,3 +14,9 @@
   font-family: 'Avenir';
   src: url('../public/fonts/AvenirNextLTPro-Regular.otf');
 }
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../public/fonts/AvenirNextLTPro-Bold.otf');
+  font-weight: 600;
+}

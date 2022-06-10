@@ -30,7 +30,7 @@ const LoginForm = (props) => {
         appendIcon={show ? regular('eye-slash') : regular('eye')}
         appendIconClick={togglePasswordVisibility}
       ></TextInput>
-      <Button variant={'outlined'} block>
+      <Button variant={'outlined'} block className="font-semibold">
         SIGN IN
       </Button>
       <p className="font-light text-center my-6">
