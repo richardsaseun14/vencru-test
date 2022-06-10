@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import LoginForm from './components/loginForm';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="md:flex h-screen">
+      <div className="px-5 md:px-10 md:w-5/12 h-full bg-[#2D74DA] pt-20">
+        <p className="font-['Montserrat'] text-[19.54px] tracking-[.21em] text-slate-50 mb-16">
+          SME Better
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <LoginForm className="mx-auto"></LoginForm>
+      </div>
+      <div className="h-full hidden md:block">2</div>
     </div>
   );
 }
