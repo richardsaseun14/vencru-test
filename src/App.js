@@ -1,5 +1,3 @@
-// import logo from './logo.svg';
-import './App.css';
 import LoginForm from './components/loginForm';
 import LoginSlide from './components/loginSlide';
 
